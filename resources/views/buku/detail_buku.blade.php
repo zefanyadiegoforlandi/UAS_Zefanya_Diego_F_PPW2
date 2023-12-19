@@ -19,6 +19,8 @@
                     <th>Gambar Galeri</th>
                     <th>Judul Buku</th>
                     <th>Tambah Favourite</th>
+                    <th>Review Buku</th>
+                    <th>Form Review</th>
                 </tr>
             </thead>
             <tbody>
@@ -50,6 +52,8 @@
                                     Tambah ke Favorit</button>
                             </form>
                         @endauth
+                    </td>
+                    <td>
                     </td>
                 </tr>
                 @endforeach
